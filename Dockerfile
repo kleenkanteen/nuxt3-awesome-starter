@@ -18,6 +18,6 @@ FROM base
 ENV NODE_ENV=production
 ENV PORT=3000
 
-COPY --from=build /usr/src/app/.output /usr/src/app/.output
+COPY --from=build . /usr/src/app/.output
 
 CMD [ "node", ".output/server/index.mjs" ]
