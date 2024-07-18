@@ -1,5 +1,4 @@
 FROM node:18.2.0-alpine3.15 AS base
-WORKDIR /usr
 
 ENV NODE_ENV=production
 
