@@ -16,7 +16,7 @@ RUN npm run build
 FROM base
 
 ENV NODE_ENV=production
-ENV PORT=$PORT
+ENV PORT=3000
 
 COPY --from=build /usr/src/app/.output /usr/src/app/.output
 
