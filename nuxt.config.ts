@@ -25,17 +25,17 @@ export default defineNuxtConfig({
   // modules
   modules: [
     // chore
-    '@nuxtjs/eslint-module',
+    // '@nuxtjs/eslint-module',
     // styling & ui
-    '@nuxtjs/tailwindcss',
-    'nuxt-headlessui',
-    'nuxt-icon',
-    '@nuxtjs/color-mode',
+    // '@nuxtjs/tailwindcss',
+    // 'nuxt-headlessui',
+    // 'nuxt-icon',
+    // '@nuxtjs/color-mode',
     // management
-    '@pinia/nuxt',
-    '@vueuse/nuxt',
+    // '@pinia/nuxt',
+    // '@vueuse/nuxt',
     // contents,
-    '@nuxt/content',
+    // '@nuxt/content',
 
     // todo: feat/localization
     // '@nuxtjs/i18n'
