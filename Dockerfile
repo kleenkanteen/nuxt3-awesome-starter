@@ -1,14 +1,9 @@
-# syntax = docker/dockerfile:1
-
-ARG NODE_VERSION=20.15.1
-
-FROM node:${NODE_VERSION}-slim as base
-
-ARG PORT=3000
+FROM node:18.2.0-alpine.15 AS base
+WORKDIR /usr/src/app
 
 ENV NODE_ENV=production
 
-WORKDIR /src
+WORKDIR /usr/src/app
 
 # Build
 FROM base as build
